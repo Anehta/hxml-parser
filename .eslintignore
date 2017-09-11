@@ -4,7 +4,6 @@
 dist/*.js
 lib/*.js
 dist/**/*.js
-component/LygShare/NativeShare
 # Ignore assets vendor files
 assets/vendor/js/*
 gulpfile.js

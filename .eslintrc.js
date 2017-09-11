@@ -3,7 +3,7 @@ const resolve = (dir = '') => path.join(__dirname, dir);
 
 module.exports = {
   root: true,
-  extends: ['vue', 'airbnb-base'],
+  extends: ['airbnb-base'],
   parserOptions: {
     parser: 'babel-eslint',
     ecmaVersion: 2017,
@@ -14,9 +14,6 @@ module.exports = {
       "es6": true,
     }
   },
-  plugins: [
-    'vue',
-  ],
   settings: {
     'import/resolver': {
       webpack: {
@@ -41,8 +38,10 @@ module.exports = {
     YKU: true,
   },
   rules: {
+    'no-continue': 0,
     'no-console': 0,
     'no-empty': 1,
+    'no-unreachable': 0,
     // 要求 require() 出现在顶层模块作用域中
     'global-require': 0,
     // 不允许修改 function 中的函数
@@ -107,7 +106,6 @@ module.exports = {
     'import/extensions': ['error', 'always', {
       js: 'never',
       vue: 'never',
-    }],     
-    'vue/jsx-uses-vars': 2,
+    }],
   },
 };

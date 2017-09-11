@@ -1,11 +1,12 @@
 {
+  "main": "dist/hxmlparser.js",
   "name": "hxml-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An simple html(xml?) parser.",
   "main": "dist/hxmlparser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server --colors --profile --config config/webpack.prod.config.js"
+    "build": "webpack --colors --profile --config config/webpack.prod.config.js"
   },
   "repository": {
     "type": "git",

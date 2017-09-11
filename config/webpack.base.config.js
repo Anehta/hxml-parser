@@ -8,8 +8,8 @@ const nodeModulesPath = resolve('node_modules');
 module.exports = {
   entry: ['./src/index.js'],
   output: {
-    path: './dist',
-    filename: 'index.js',
+    path: resolve('dist'),
+    filename: 'hxmlparser.js',
   },  
   // 帮助 webpack 快速定位 modules
   resolve: {

@@ -5,9 +5,5 @@
     [{"env": {
       "modules": true
     }}]
-  ],
-  "plugins": [
-    "transform-runtime",
-    "transform-object-rest-spread"
   ]
 }

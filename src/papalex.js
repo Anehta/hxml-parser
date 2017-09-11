@@ -20,7 +20,7 @@ const lextype = {
 };
 
 function isString(str) {
-  return (typeof str == 'string') && str.constructor == String;
+  return (typeof str == 'string') && str.constructor === String;
 }
 
 function isWord(str) {

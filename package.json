@@ -1,0 +1,57 @@
+{
+  "name": "hxml-parser",
+  "version": "0.0.1",
+  "description": "An simple html(xml?) parser.",
+  "main": "dist/hxmlparser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --colors --profile --config config/webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anehta/hxml-parser.git"
+  },
+  "author": "Anehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anehta/hxml-parser/issues"
+  },
+  "homepage": "https://github.com/Anehta/hxml-parser#readme",
+  "dependencies": {
+    "ava": "^0.22.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-component": "^0.10.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "chalk": "^2.0.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.1",
+    "ellipsis-plus": "^1.0.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-friendly-formatter": "^2.0.7",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.1",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "webpack": "^3.0.0",
+    "webpack-dashboard": "^0.4.0",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-md5-hash": "0.0.5",
+    "webpack-merge": "^4.1.0",
+    "webpack-plugin-manifest": "^1.1.0",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}

@@ -1,0 +1,10 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+# Ignore built files except dist/*.js
+dist/*.js
+lib/*.js
+dist/**/*.js
+component/LygShare/NativeShare
+# Ignore assets vendor files
+assets/vendor/js/*
+gulpfile.js
